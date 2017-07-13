@@ -22,6 +22,4 @@ export class AppComponent {
 		}
 		return arr;
 	}
-
-	randColors = this.shuffleArr(this.colors);
 }
