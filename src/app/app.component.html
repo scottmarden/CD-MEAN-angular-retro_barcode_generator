@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<body>
+	<div style="text-align:center">
+		<h1>
+			Welcome to {{title}}!
+		</h1>
+	</div>
+	<div id="barcode">
+		<div *ngFor = "let color of colors" class = "square" [ngStyle] = "{'background-color': color }">
+		</div>
+	</div>
+</body>

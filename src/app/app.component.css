@@ -1,0 +1,16 @@
+body{
+	background-color: darkgrey;
+	height: 300px;
+}
+
+#barcode{
+	background-color: lightblue;
+	padding: 30px;
+	margin: 40px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
