@@ -20,6 +20,7 @@ export class AppComponent {
 			arr[currentIndex] = arr[randomIndex];
 			arr[randomIndex] = temporaryValue;
 		}
+		return arr;
 	}
 
 	randColors = this.shuffleArr(this.colors);
